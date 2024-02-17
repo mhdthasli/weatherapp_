@@ -7,7 +7,7 @@ import 'package:http/http.dart' as http;
 
 class Screen2 extends StatefulWidget {
   @override
-  _Screen2State createState() => _Screen2State();
+  _Screen2State createState() =>_Screen2State();
 }
 
 class _Screen2State extends State<Screen2 > {

@@ -32,7 +32,7 @@ class HomeScreen extends StatelessWidget {
         title: Center(child: Text('Weather App',style: GoogleFonts.aBeeZee(color: Colors.white),)),
         actions: [
           IconButton(onPressed: (){
-            Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=> WeatherPage()));
+            Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=> Screen2()));
           }, icon: Icon(Icons.search,color: Colors.white,))
         ],
       ),
